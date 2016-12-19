@@ -14,7 +14,7 @@
 ### Usage
     ethClient.Account.create(baseUrl, $('#password').val(), function(err, _account) {
             account = _account;
-            new ethClient.AltExecCnsContract(account, cnsAddress);
+            contract = new ethClient.AltExecCnsContract(account, cnsAddress);
         }
     });
 
