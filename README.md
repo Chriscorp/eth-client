@@ -1,23 +1,7 @@
 # EthClient
 
-## Installation
-### Node.js
-`npm install eth-client`
-
-### HTML
-    <html>
-      <body>
-        <script src="eth-client.min.js"></script>
-      </body>
-    </html>
-
-### Usage
-    ethClient.Account.create(baseUrl, password, function(err, _account) {
-        account = _account;
-        contract = new ethClient.AltExecCnsContract(account, CnsAddress);
-    }
-
-    contract.call(password, ContractName, FunctionName, [ Args ], ABI, callback);
+This repository has been moved to new repository.
+https://github.com/zcom-cloud-blockchain/eth-client
 
 ## License
     Copyright 2016 GMO Internet, Inc.
